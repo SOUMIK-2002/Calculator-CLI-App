@@ -1,0 +1,52 @@
+===== Calculator Menu =====
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Exit
+Enter your choice (1-5): 1
+Enter the first number: 20
+Enter the second number: 50
+Result: 70.0
+
+===== Calculator Menu =====
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Exit
+Enter your choice (1-5): 2
+Enter the first number: 20
+Enter the second number: 10
+Result: 10.0
+
+===== Calculator Menu =====
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Exit
+Enter your choice (1-5): 3
+Enter the first number: 20
+Enter the second number: 8
+Result: 160.0
+
+===== Calculator Menu =====
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Exit
+Enter your choice (1-5): 4
+Enter the first number: 80
+Enter the second number: 9
+Result: 8.88888888888889
+
+===== Calculator Menu =====
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Exit
+Enter your choice (1-5): 5
+xiting the calculator. Goodbye!
