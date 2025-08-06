@@ -1,54 +1,41 @@
-# # calculator.py
+ # 💻 Calculator CLI App
 
-# Define functions for each operation
-def add(x, y):
-    return x + y
+A simple yet powerful command-line calculator built in Python 🐍.  
+It supports basic arithmetic operations and runs in a continuous loop until the user decides to exit.  
+This project demonstrates core Python concepts like functions, loops, user input, and conditionals.
 
-def subtract(x, y):
-    return x - y
+---
 
-def multiply(x, y):
-    return x * y
+## ✨ Features
+✅ Addition  
+✅ Subtraction  
+✅ Multiplication  
+✅ Division (with zero-division handling)  
+✅ Looping until user exits  
+✅ Clear user-friendly CLI prompts  
 
-def divide(x, y):
-    if y == 0:
-        return "Error! Cannot divide by zero."
-    return x / y
+---
 
-# CLI loop
-while True:
-    print("\n===== Calculator Menu =====")
-    print("1. Addition")
-    print("2. Subtraction")
-    print("3. Multiplication")
-    print("4. Division")
-    print("5. Exit")
+## 📚 Technologies Used
 
-    choice = input("Enter your choice (1-5): ")
+| Tool/Tech     | Description                       |
+|---------------|-----------------------------------|
+| Python 3.x     | Core language for implementation |
+| Terminal/CLI   | User interface for interaction   |
+| Text Editor    | VS Code  |
 
-    if choice == '5':
-        print(" Exiting the calculator. Goodbye!")
-        break
+---
 
-    if choice in ['1', '2', '3', '4']:
-        try:
-            num1 = float(input("Enter the first number: "))
-            num2 = float(input("Enter the second number: "))
-        except ValueError:
-            print(" Invalid input! Please enter numeric values.")
-            continue
+## 🚀 How to Run
 
-        if choice == '1':
-            result = add(num1, num2)
-            print("Result:", result)
-        elif choice == '2':
-            result = subtract(num1, num2)
-            print("Result:", result)
-        elif choice == '3':
-            result = multiply(num1, num2)
-            print("Result:", result)
-        elif choice == '4':
-            result = divide(num1, num2)
-            print("Result:", result)
-    else:
-        print(" Invalid choice! Please select between 1 to 5.")
+### 🖥️ On PC (Windows/Linux/Mac)
+```bash
+
+1. Open Visual Studio Code
+2. Open the folder containing calculator.py
+3. Click on the file to open it
+Make sure Python is installed and the VS Code Python extension is enabled.
+4. Run the code by:
+Clicking the ▶️ Run button, or
+Right-clicking and selecting “Run Python File in Terminal”
+5. Use the terminal to interact with the calculator
